@@ -6,7 +6,8 @@ gatsby new post generate script
 
 `svn export https://github.com/eginoy/gatsby_new_post_script/trunk/newpost`  
 
-package.json add script  
+package.json add script `newpost`  
+
 `"scripts": {
     "newpost": "node ./script/newpost/index.js",
     "build": "gatsby build",  
