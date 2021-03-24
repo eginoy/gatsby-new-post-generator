@@ -22,8 +22,5 @@
   "keywords": [
     "gatsby-new-post",
     "gatsby-post-generater"
-  ],
-  "dependencies": {
-    "shelljs": "^0.8.4"
-  }
+  ]
 }
