@@ -1,17 +1,14 @@
-# gatsby_new_post_script
+# gatsby-new-post-generator
 # Features
-gatsby new post generate script
+gatsby new post generator cli-tool
 # Installation
-`cd ${your_gatsby_website_dir} && mkdir script && cd script`  
+npm  
+`npm install -g gatsby-new-post-generator`  
 
-`svn export https://github.com/eginoy/gatsby_new_post_script/trunk/newpost`  
+yarn  
+`yarn add global gatsby-new-post-generator`
 
-package.json add script `newpost`  
-
-`"scripts": {
-    "newpost": "node ./script/newpost/index.js",
-    "build": "gatsby build",  
-    ...
-`
 # Usage
-`npm newpost ${post_title}`
+`cd ${your_gatsby_website_dir}`  
+
+`newpost ${post_title}`
