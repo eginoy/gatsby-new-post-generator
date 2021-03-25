@@ -1,26 +1,29 @@
 {
-  "name": "gatsby_new_post_script",
-  "version": "1.0.5",
+  "name": "gatsby-new-post-generator",
+  "version": "1.0.0",
   "description": "Generate gatsby new post(.md) cli script",
   "main": "./lib/newpost.js",
   "bin": {
-    "newpost": "./bin/index.js"
+    "newpost": "bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/eginoy/gatsby_new_post_script.git"
+    "url": "git+ssh://git@github.com/eginoy/gatsby-new-post-generator.git"
   },
   "author": "eginoy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eginoy/gatsby_new_post_script/issues"
+    "url": "https://github.com/eginoy/gatsby-new-post-generator/issues"
   },
-  "homepage": "https://github.com/eginoy/gatsby_new_post_script#readme",
+  "homepage": "https://github.com/eginoy/gatsby-new-post-generator",
   "scripts": {
     "newpost": "node ./bin/index.js"
   },
   "keywords": [
     "gatsby-new-post",
     "gatsby-post-generater"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  }
 }
