@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/eginoy/gatsby-new-post-generator",
   "scripts": {
-    "newpost": "node ./bin/index.js"
+    
   },
   "keywords": [
     "gatsby-new-post",
