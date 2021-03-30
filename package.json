@@ -4,7 +4,7 @@
   "description": "Generate gatsby new post(.md) cli script",
   "main": "./lib/newpost.js",
   "bin": {
-    "newpost": "bin/index.js"
+    "newpost": "./bin/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,7 @@
     
   },
   "keywords": [
-    "gatsby-new-post",
-    "gatsby-post-generater"
+    "gatsby-new-post"
   ],
   "directories": {
     "lib": "lib"
